@@ -170,6 +170,69 @@
     "token": "eyJhbGciOiJSUzI1NiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwidXNlcm5hbWUiOiJocm9kcmlndWV6QHJvb3RzdGFjay5jb20iLCJpYXQiOjE1MTY4MTkwNzcsImV4cCI6MTUxNjgyMjY3N30.UXvRh2kUWW1xuvme_tPcoZYym3kP8rZVRsnbMfyVMTLKOZSBvLMG9g6cLyHQbV9zOkreCTgu1esskCRyOWMHogWjAaXNjdET1Dzq6qcHaITJLkBoCO5WpWWVUk4bnI48YPuNfbp2ETdmp1GQ5F9-qramNR_wM13TWXtdnJmT4wXqJyAk5kElFYHSqOk8kE6yyj3Cv0NvPzYAoO4d3IF4Z8Fv6XAAQ_ZAMMFe6VmmiyI4cnm-vgwPBQqtPK2CaO1S_nkKDH3rYiMjGOu3J6YZXHqj6VpbWXdfgpbwiG5qSmiaMZGFRe3C5Qp4sgyRorHBG7mQ55SfBkuCWTBp5vrN5IAANNm_x3h1e1i41hynlgmLTJYQePf4VIoLa8mspDwvktGP-Nl-GPhAzrpplVRMJ0Iqocq69PeMhEerD89lpmYuEasxD-a236ges_ChHUW7bS1h8NVSstfLQIrP69d52JxA4aL40K0hDm3ipRkMzrsdlqTh651C-i9DWtyGDyV47ELnwOqZzXGG_B3DRB-jxry1DfKCXC9X47fwn3sK5F1Ikx4L3Eu-w1xtTzP2SlKEB4tHbr13Hp6yxUtc-S__aILl2C0tD7z2xgZazBnu8q9Y5uU7axQt9s4pHI-btdetXn5FnKSVpqM6NxF3TsdLKNp8u5gKEa6nlRUD7_j770s",
     "refresh_token": "77e75ce40405aaf8a5b3f6b640815b20b8d1e11f3226a8b3316758e1e763d094c864df33df9ed0a2aada21694e4fe36ddf025bd847773a2d9ba44904b70f1b44"
 }
+</code></pre></div></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_api_user"><span class="parent">/api</span>/user</a> <span class="methods"><a href="#api_user_get"><span class="badge badge_get">get</span></a></span></h4></div><div id="panel_api_user" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#api_user_get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"><p>Obtiene la información del usuario loggueado.</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_user_get"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/api</span>/user</h4></div><div class="modal-body"><div class="alert alert-info"><p>Obtiene la información del usuario loggueado.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_user_get_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_user_get_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+    "user": {
+        "personas": [
+            {
+                "id": 54,
+                "tipo": "natural",
+                "ruc": "",
+                "nombreSociedad": "",
+                "nombre": "Hector",
+                "apellido": "Rodriguez",
+                "cedula": "",
+                "pasaporte": "143054098",
+                "createdAt": "2018-01-16T15:58:32+00:00",
+                "updatedAt": "2018-01-16T15:58:32+00:00"
+            }
+        ],
+        "id": 55,
+        "createdAt": "2018-01-16T15:58:32+00:00",
+        "updatedAt": "2018-01-26T15:22:25+00:00",
+        "twoStepVerificationCode": null,
+        "biography": null,
+        "dateOfBirth": null,
+        "facebookData": null,
+        "facebookName": null,
+        "facebookUid": null,
+        "firstname": null,
+        "gender": "u",
+        "gplusData": null,
+        "gplusName": null,
+        "gplusUid": null,
+        "lastname": null,
+        "locale": null,
+        "phone": null,
+        "timezone": null,
+        "twitterData": null,
+        "twitterName": null,
+        "twitterUid": null,
+        "website": null,
+        "token": null,
+        "fullname": " ",
+        "realRoles": [],
+        "username": "hrodriguez@rootstack.com",
+        "usernameCanonical": "hrodriguez@rootstack.com",
+        "salt": null,
+        "email": "hrodriguez@rootstack.com",
+        "emailCanonical": "hrodriguez@rootstack.com",
+        "password": "$2y$13$S0hf6.9qdsEZ4Xp3IF80LuGwGiG83reo7DCTfesPAQXxhIQqvr/BK",
+        "plainPassword": null,
+        "lastLogin": "2018-01-26T15:22:25+00:00",
+        "confirmationToken": null,
+        "roles": [
+            "ROLE_USER"
+        ],
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "enabled": true,
+        "superAdmin": false,
+        "passwordRequestedAt": null,
+        "groups": [],
+        "groupNames": []
+    }
+}
 </code></pre></div></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_api_user_register"><span class="parent">/api/user</span>/register</a> <span class="methods"><a href="#api_user_register_post"><span class="badge badge_post">post</span></a></span></h4></div><div id="panel_api_user_register" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#api_user_register_post'" class="list-group-item"><span class="badge badge_post">post</span><div class="method_description"><p>Registra un usuario en el sistema.</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_user_register_post"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_post">post</span> <span class="parent">/api/user</span>/register</h4></div><div class="modal-body"><div class="alert alert-info"><p>Registra un usuario en el sistema.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_user_register_post_request" data-toggle="tab">Request</a></li><li><a href="#api_user_register_post_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_user_register_post_request"><h3>Body</h3><p><strong>Media type</strong>: application/x-www-form-urlencoded</p><p><strong>Type</strong>: object</p><strong>Properties</strong><ul><li><strong>tipo_persona</strong>: <em>required (one of natural, juridica)</em></li><li><strong>email</strong>: <em>required (string)</em></li><li><strong>password</strong>: <em>required (string)</em></li><li><strong>nombre</strong>: <em>(string)</em><p>Requerido para Persona Natural</p></li><li><strong>apellido</strong>: <em>(string)</em><p>Requerido para Persona Natural</p></li><li><strong>cedula</strong>: <em>(string)</em><p>Requerido para Persona Natural</p></li><li><strong>pasaporte</strong>: <em>(string)</em><p>Requerido para Persona Natural</p></li><li><strong>nombre_sociedad</strong>: <em>(string)</em><p>Requerido para Persona Juridica</p></li><li><strong>ruc</strong>: <em>(string)</em><p>Requerido para Persona Juridica</p></li></ul></div><div class="tab-pane" id="api_user_register_post_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Examples</strong>:</p><div class="examples"><p><strong>success</strong>:<br></p><pre><code>{
   "ok": true,
   "user": {
@@ -232,4 +295,270 @@
   "file_id": 345,
   "file_url": "http://cpl.example.com/uploads/2/232aef23.png"
 }
-</code></pre></div></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_api_products"><span class="parent">/api</span>/products</a> <span class="methods"><a href="#api_products_post"><span class="badge badge_post">post</span></a> <a href="#api_products_patch"><span class="badge badge_patch">patch</span></a></span></h4></div><div id="panel_api_products" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#api_products_post'" class="list-group-item"><span class="badge badge_post">post</span><div class="method_description"><p>Creates a new Product</p></div><div class="clearfix"></div></div><div onclick="window.location.href = '#api_products_patch'" class="list-group-item"><span class="badge badge_patch">patch</span><div class="method_description"><p>Actualiza los datos de un producto.</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_products_post"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_post">post</span> <span class="parent">/api</span>/products</h4></div><div class="modal-body"><div class="alert alert-info"><p>Creates a new Product</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_products_post_request" data-toggle="tab">Request</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_products_post_request"><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>[object Object]</code></pre></div></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_products_patch"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_patch">patch</span> <span class="parent">/api</span>/products</h4></div><div class="modal-body"><div class="alert alert-info"><p>Actualiza los datos de un producto.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_products_patch_request" data-toggle="tab">Request</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_products_patch_request"><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>[object Object]</code></pre></div></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_api_products__id_"><span class="parent">/api/products</span>/{id}</a> <span class="methods"><a href="#api_products__id__get"><span class="badge badge_get">get</span></a></span></h4></div><div id="panel_api_products__id_" class="panel-collapse collapse"><div class="panel-body"><div class="resource-description"><p>Finds a product by id. responses</p></div><div class="list-group"><div onclick="window.location.href = '#api_products__id__get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_products__id__get"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/api/products</span>/{id}</h4></div><div class="modal-body"><ul class="nav nav-tabs"><li class="active"><a href="#api_products__id__get_request" data-toggle="tab">Request</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_products__id__get_request"><h3>URI Parameters</h3><ul><li><strong>id</strong>: <em>required (string)</em></li></ul></div></div></div></div></div></div></div></div></div></div></div><div class="col-md-3"><div id="sidebar" class="hidden-print affix" role="complementary"><ul class="nav nav-pills nav-stacked"><li><a href="#api">/api</a></li></ul></div></div></div></div></body></html>
+</code></pre></div></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_api_products"><span class="parent">/api</span>/products</a> <span class="methods"><a href="#api_products_post"><span class="badge badge_post">post</span></a> <a href="#api_products_patch"><span class="badge badge_patch">patch</span></a> <a href="#api_products_get"><span class="badge badge_get">get</span></a></span></h4></div><div id="panel_api_products" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#api_products_post'" class="list-group-item"><span class="badge badge_post">post</span><div class="method_description"><p>Creates a new Product</p></div><div class="clearfix"></div></div><div onclick="window.location.href = '#api_products_patch'" class="list-group-item"><span class="badge badge_patch">patch</span><div class="method_description"><p>Actualiza los datos de un producto.</p></div><div class="clearfix"></div></div><div onclick="window.location.href = '#api_products_get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"><p>Finds all products.</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_products_post"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_post">post</span> <span class="parent">/api</span>/products</h4></div><div class="modal-body"><div class="alert alert-info"><p>Creates a new Product</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_products_post_request" data-toggle="tab">Request</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_products_post_request"><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "id": "your-product-id",
+  "name": "Some product name",
+  "description": "Some description of the product.",
+  "category": 6,
+  "company": 1
+}
+</code></pre></div></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_products_patch"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_patch">patch</span> <span class="parent">/api</span>/products</h4></div><div class="modal-body"><div class="alert alert-info"><p>Actualiza los datos de un producto.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_products_patch_request" data-toggle="tab">Request</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_products_patch_request"><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "category": 9
+}
+</code></pre></div></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_products_get"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/api</span>/products</h4></div><div class="modal-body"><div class="alert alert-info"><p>Finds all products.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_products_get_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_products_get_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Examples</strong>:</p><div class="examples"><p><strong>success</strong>:<br></p><pre><code>{
+  "ok": true,
+  "entities": [
+    {
+      "id": "sku-id-test-10",
+      "name": "NameTest 3",
+      "description": "Description test 3"
+    }
+  ]
+}
+</code></pre><p><strong>error</strong>:<br></p><pre><code>{
+  "status": 400,
+  "tile": "Entities not found"
+
+}
+</code></pre></div></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_api_products__id_"><span class="parent">/api/products</span>/{id}</a> <span class="methods"><a href="#api_products__id__get"><span class="badge badge_get">get</span></a></span></h4></div><div id="panel_api_products__id_" class="panel-collapse collapse"><div class="panel-body"><div class="resource-description"><p>Finds a product by id. responses</p></div><div class="list-group"><div onclick="window.location.href = '#api_products__id__get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_products__id__get"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/api/products</span>/{id}</h4></div><div class="modal-body"><ul class="nav nav-tabs"><li class="active"><a href="#api_products__id__get_request" data-toggle="tab">Request</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_products__id__get_request"><h3>URI Parameters</h3><ul><li><strong>id</strong>: <em>required (string)</em></li></ul></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_api_categories"><span class="parent">/api</span>/categories</a> <span class="methods"><a href="#api_categories_post"><span class="badge badge_post">post</span></a></span></h4></div><div id="panel_api_categories" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#api_categories_post'" class="list-group-item"><span class="badge badge_post">post</span><div class="method_description"><p>Creates a new Category.</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_categories_post"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_post">post</span> <span class="parent">/api</span>/categories</h4></div><div class="modal-body"><div class="alert alert-info"><p>Creates a new Category.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_categories_post_request" data-toggle="tab">Request</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_categories_post_request"><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Examples</strong>:</p><div class="examples"><p><strong>parent</strong>:<br></p><pre><code>{
+  "label": "Category 1",
+  "company": 2
+}
+</code></pre><p><strong>child</strong>:<br></p><pre><code>{
+  "label": "Category 2",
+  "company": 2,
+  "parent": 5
+}
+</code></pre></div></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_api_transactions"><span class="parent">/api</span>/transactions</a> <span class="methods"><a href="#api_transactions_get"><span class="badge badge_get">get</span></a> <a href="#api_transactions_post"><span class="badge badge_post">post</span></a></span></h4></div><div id="panel_api_transactions" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#api_transactions_get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"><p>Encuentra transacciones por owner y persona.</p></div><div class="clearfix"></div></div><div onclick="window.location.href = '#api_transactions_post'" class="list-group-item"><span class="badge badge_post">post</span><div class="method_description"><p>Crea una nueva transacción.</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_transactions_get"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/api</span>/transactions</h4></div><div class="modal-body"><div class="alert alert-info"><p>Encuentra transacciones por owner y persona.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_transactions_get_request" data-toggle="tab">Request</a></li><li><a href="#api_transactions_get_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_transactions_get_request"><h3>Query Parameters</h3><ul><li><strong>owner</strong>: <em>(integer)</em></li><li><strong>persona</strong>: <em>(integer)</em></li></ul></div><div class="tab-pane" id="api_transactions_get_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "entities": [
+    {
+        "id": 1,
+        "company": "1",
+        "user": 1,
+        "persona": 1,
+        "product": "sku-id-test-10"
+    },
+    {
+        "id": 2,
+        "company": "1",
+        "user": 1,
+        "persona": 1,
+        "product": "sku-id-test-112"
+    },
+    {
+        "id": 3,
+        "company": "1",
+        "user": 1,
+        "persona": 1,
+        "product": "sku-id-test-220"
+    }
+  ]
+}
+</code></pre></div></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_transactions_post"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_post">post</span> <span class="parent">/api</span>/transactions</h4></div><div class="modal-body"><div class="alert alert-info"><p>Crea una nueva transacción.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_transactions_post_request" data-toggle="tab">Request</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_transactions_post_request"><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+    "company": 1,
+    "user": 5,
+    "persona": 2,
+    "product": "sku-id-test5"
+}
+</code></pre></div></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_api_transactions__id_"><span class="parent">/api/transactions</span>/{id}</a> <span class="methods"><a href="#api_transactions__id__patch"><span class="badge badge_patch">patch</span></a> <a href="#api_transactions__id__get"><span class="badge badge_get">get</span></a></span></h4></div><div id="panel_api_transactions__id_" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#api_transactions__id__patch'" class="list-group-item"><span class="badge badge_patch">patch</span><div class="method_description"><p>Update a transaction.</p></div><div class="clearfix"></div></div><div onclick="window.location.href = '#api_transactions__id__get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"><p>Gets a transanction by id.</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_transactions__id__patch"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_patch">patch</span> <span class="parent">/api/transactions</span>/{id}</h4></div><div class="modal-body"><div class="alert alert-info"><p>Update a transaction.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_transactions__id__patch_request" data-toggle="tab">Request</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_transactions__id__patch_request"><h3>URI Parameters</h3><ul><li><strong>id</strong>: <em>required (string)</em></li></ul><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "company": 1,
+  "user": 5,
+  "persona": 2,
+  "product": "sku-id-test5"
+}
+</code></pre></div></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_transactions__id__get"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/api/transactions</span>/{id}</h4></div><div class="modal-body"><div class="alert alert-info"><p>Gets a transanction by id.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_transactions__id__get_request" data-toggle="tab">Request</a></li><li><a href="#api_transactions__id__get_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_transactions__id__get_request"><h3>URI Parameters</h3><ul><li><strong>id</strong>: <em>required (string)</em></li></ul></div><div class="tab-pane" id="api_transactions__id__get_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "entity": {
+      "id": 1,
+      "company": "1",
+      "user": 1,
+      "persona": 1,
+      "product": "sku-id-test-10"
+  }
+}
+</code></pre></div><h2>HTTP status code <a href="http://httpstatus.es/404" target="_blank">404</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "ok": false,
+  "errors": [
+    {
+      "status": 404,
+      "title": "Entity not found for id 55",
+      "error_code": "entity_not_found"
+    }
+  ]
+}
+</code></pre></div></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_api_companies"><span class="parent">/api</span>/companies</a> <span class="methods"><a href="#api_companies_post"><span class="badge badge_post">post</span></a></span></h4></div><div id="panel_api_companies" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#api_companies_post'" class="list-group-item"><span class="badge badge_post">post</span><div class="method_description"><p>Crea una nueva compañía.</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_companies_post"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_post">post</span> <span class="parent">/api</span>/companies</h4></div><div class="modal-body"><div class="alert alert-info"><p>Crea una nueva compañía.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_companies_post_request" data-toggle="tab">Request</a></li><li><a href="#api_companies_post_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_companies_post_request"><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "name": "New Company 5"
+}
+</code></pre></div></div><div class="tab-pane" id="api_companies_post_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "data": {
+      "id": "9",
+      "name": "New Company 5",
+      "transactions": [],
+      "products": [],
+      "categories": []
+  }
+}
+</code></pre></div></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_api_companies__id_"><span class="parent">/api/companies</span>/{id}</a> <span class="methods"><a href="#api_companies__id__patch"><span class="badge badge_patch">patch</span></a> <a href="#api_companies__id__get"><span class="badge badge_get">get</span></a></span></h4></div><div id="panel_api_companies__id_" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#api_companies__id__patch'" class="list-group-item"><span class="badge badge_patch">patch</span><div class="method_description"><p>Update a company name.</p></div><div class="clearfix"></div></div><div onclick="window.location.href = '#api_companies__id__get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"><p>Encuentra una compañía por ID.</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_companies__id__patch"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_patch">patch</span> <span class="parent">/api/companies</span>/{id}</h4></div><div class="modal-body"><div class="alert alert-info"><p>Update a company name.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_companies__id__patch_request" data-toggle="tab">Request</a></li><li><a href="#api_companies__id__patch_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_companies__id__patch_request"><h3>URI Parameters</h3><ul><li><strong>id</strong>: <em>required (string)</em></li></ul><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "name": "New company name"
+}
+</code></pre></div></div><div class="tab-pane" id="api_companies__id__patch_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "message": "Entity was updated with id 2"
+}
+</code></pre></div></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_companies__id__get"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/api/companies</span>/{id}</h4></div><div class="modal-body"><div class="alert alert-info"><p>Encuentra una compañía por ID.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_companies__id__get_request" data-toggle="tab">Request</a></li><li><a href="#api_companies__id__get_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_companies__id__get_request"><h3>URI Parameters</h3><ul><li><strong>id</strong>: <em>required (string)</em></li></ul></div><div class="tab-pane" id="api_companies__id__get_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "entity": {
+        "id": "1",
+        "name": "New Company Check Name 1"
+  }
+}
+</code></pre></div><h2>HTTP status code <a href="http://httpstatus.es/404" target="_blank">404</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+    "errors": [
+        {
+            "error_code": "entity_not_found"
+        }
+    ]
+}
+</code></pre></div></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_api_companies__id__categories"><span class="parent">/api/companies/{id}</span>/categories</a> <span class="methods"><a href="#api_companies__id__categories_get"><span class="badge badge_get">get</span></a></span></h4></div><div id="panel_api_companies__id__categories" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#api_companies__id__categories_get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"><p>Finds all categories from a given ID.</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_companies__id__categories_get"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/api/companies/{id}</span>/categories</h4></div><div class="modal-body"><div class="alert alert-info"><p>Finds all categories from a given ID.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_companies__id__categories_get_request" data-toggle="tab">Request</a></li><li><a href="#api_companies__id__categories_get_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_companies__id__categories_get_request"><h3>URI Parameters</h3><ul><li><strong>id</strong>: <em>required (string)</em></li></ul></div><div class="tab-pane" id="api_companies__id__categories_get_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "ok": true,
+  "categories": [
+      {
+          "id": 5,
+          "label": "Category 5"
+      },
+      {
+          "id": 6,
+          "label": "Category 6",
+          "children": [
+              {
+                  "id": 9,
+                  "label": "Category 9"
+              }
+          ]
+      }
+  ]
+}
+</code></pre></div></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_api_companies__id__products"><span class="parent">/api/companies/{id}</span>/products</a> <span class="methods"><a href="#api_companies__id__products_get"><span class="badge badge_get">get</span></a></span></h4></div><div id="panel_api_companies__id__products" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#api_companies__id__products_get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"><p>List of products for a given company id</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_companies__id__products_get"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/api/companies/{id}</span>/products</h4></div><div class="modal-body"><div class="alert alert-info"><p>List of products for a given company id</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_companies__id__products_get_request" data-toggle="tab">Request</a></li><li><a href="#api_companies__id__products_get_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_companies__id__products_get_request"><h3>URI Parameters</h3><ul><li><strong>id</strong>: <em>required (string)</em></li></ul><h3>Query Parameters</h3><ul><li><strong>page</strong>: <em>(integer)</em></li><li><strong>category</strong>: <em>(integer)</em></li></ul></div><div class="tab-pane" id="api_companies__id__products_get_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+    "ok": true,
+    "total": 7,
+    "page": "1",
+    "products": [
+        {
+            "id": "sku-id-test-112",
+            "name": "NameTest 112",
+            "description": "Description test 112",
+            "company": "1",
+            "category": {
+                "id": 9,
+                "label": "Category 9",
+                "parent": {
+                    "id": 6,
+                    "label": "Category 6"
+                }
+            }
+        },
+        {
+            "id": "sku-id-test-70",
+            "name": "NameTest 70",
+            "description": "Description test 70",
+            "company": "1",
+            "category": {
+                "id": 9,
+                "label": "Category 9",
+                "parent": {
+                    "id": 6,
+                    "label": "Category 6"
+                }
+            }
+        }
+    ]
+}
+</code></pre></div></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_api_personas"><span class="parent">/api</span>/personas</a> <span class="methods"><a href="#api_personas_get"><span class="badge badge_get">get</span></a> <a href="#api_personas_patch"><span class="badge badge_patch">patch</span></a> <a href="#api_personas_post"><span class="badge badge_post">post</span></a></span></h4></div><div id="panel_api_personas" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#api_personas_get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"><p>Listado de personas en el sistema con filtrado y paginación.</p></div><div class="clearfix"></div></div><div onclick="window.location.href = '#api_personas_patch'" class="list-group-item"><span class="badge badge_patch">patch</span><div class="method_description"><p>Actualiza datos de una persona.</p></div><div class="clearfix"></div></div><div onclick="window.location.href = '#api_personas_post'" class="list-group-item"><span class="badge badge_post">post</span><div class="method_description"><p>Crea una nueva persona.</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_personas_get"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/api</span>/personas</h4></div><div class="modal-body"><div class="alert alert-info"><p>Listado de personas en el sistema con filtrado y paginación.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_personas_get_request" data-toggle="tab">Request</a></li><li><a href="#api_personas_get_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_personas_get_request"><h3>Query Parameters</h3><ul><li><strong>name</strong>: <em>required (string)</em><p>Nombre de la persona a buscar.</p></li><li><strong>state</strong>: <em>required (one of validado, no_validado, pendiente)</em><p>Filtro por el estado de la persona en el sistema.</p></li><li><strong>id</strong>: <em>required (string)</em><p>Filtro por el número de cédula, ruc o pasaporte.</p></li><li><strong>page</strong>: <em>required (string)</em><p>Page number for results that span multiple pages.</p></li></ul></div><div class="tab-pane" id="api_personas_get_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+    "status": "ok",
+    "page": 3,
+    "total_pages": 34,
+    "entities": [
+        {
+            "id": 1,
+            "tipo": "natural",
+            "apellido": "Perez",
+            "cedula": "8-902-309",
+            "nombre": "Efrain",
+            "nombre_sociedad": "",
+            "pasaporte": "",
+            "ruc": "",
+            "estado": "pendiente",
+            "link_perfil": "https://example.com/sjkdhfkjsdfkjdf"
+        },
+        {
+            "id": 2,
+            "tipo": "natural",
+            "apellido": "Gomez",
+            "cedula": "",
+            "nombre": "Jaime",
+            "nombre_sociedad": "",
+            "pasaporte": "5555",
+            "ruc": "",
+            "estado": "pendiente",
+            "link_perfil": "https://example.com/sjkdhfkjsdfkjdf"
+        },
+        {
+            "id": 3,
+            "tipo": "natural",
+            "apellido": "Gonzales",
+            "cedula": "",
+            "nombre": "Carlos",
+            "nombre_sociedad": "",
+            "pasaporte": "PA1333123123",
+            "ruc": "",
+            "estado": "validado",
+            "link_perfil": "https://example.com/sjkdhfkjsdfkjdf"
+        }
+    ]
+}
+</code></pre></div></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_personas_patch"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_patch">patch</span> <span class="parent">/api</span>/personas</h4></div><div class="modal-body"><div class="alert alert-info"><p>Actualiza datos de una persona.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_personas_patch_request" data-toggle="tab">Request</a></li><li><a href="#api_personas_patch_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_personas_patch_request"><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "apellido": "Update Apellido",
+  "cedula": "2222222",
+  "nombre": "Nombre update",
+  "nombre_sociedad": "Sociedad update",
+  "pasaporte": "65a4dd2222update",
+  "ruc": "234qawe2222222"
+}
+</code></pre></div></div><div class="tab-pane" id="api_personas_patch_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "message": "Entity was updated with id 4"
+}
+</code></pre></div></div></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_personas_post"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_post">post</span> <span class="parent">/api</span>/personas</h4></div><div class="modal-body"><div class="alert alert-info"><p>Crea una nueva persona.</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_personas_post_request" data-toggle="tab">Request</a></li><li><a href="#api_personas_post_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_personas_post_request"><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+    "apellido": "New Test 4",
+    "cedula": "4444",
+    "tipo": "natural",
+    "nombre": "nombre3443",
+    "nombre_sociedad": "SadTest3443",
+    "pasaporte": "6544443",
+    "ruc": "2344444aw"
+}
+</code></pre></div></div><div class="tab-pane" id="api_personas_post_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "data": {
+      "id": 5,
+      "tipo": "natural",
+      "ruc": "2344444aw",
+      "nombreSociedad": "SadTest3443",
+      "nombre": "nombre3443",
+      "apellido": "New Test 4",
+      "cedula": "4444",
+      "pasaporte": "6544443",
+      "createdAt": "2018-01-25T17:39:48+00:00",
+      "updatedAt": "2018-01-25T17:39:48+00:00"
+  }
+}
+</code></pre></div></div></div></div></div></div></div></div><div class="panel panel-white resource-modal"><div class="panel-heading"><h4 class="panel-title"><a class="collapsed" data-toggle="collapse" href="#panel_api_personas__id_"><span class="parent">/api/personas</span>/{id}</a> <span class="methods"><a href="#api_personas__id__get"><span class="badge badge_get">get</span></a></span></h4></div><div id="panel_api_personas__id_" class="panel-collapse collapse"><div class="panel-body"><div class="list-group"><div onclick="window.location.href = '#api_personas__id__get'" class="list-group-item"><span class="badge badge_get">get</span><div class="method_description"><p>Obtiene los datos de una persona en particular con ID de {id}</p></div><div class="clearfix"></div></div></div></div></div><div class="modal fade" tabindex="0" id="api_personas__id__get"><div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4 class="modal-title" id="myModalLabel"><span class="badge badge_get">get</span> <span class="parent">/api/personas</span>/{id}</h4></div><div class="modal-body"><div class="alert alert-info"><p>Obtiene los datos de una persona en particular con ID de {id}</p></div><ul class="nav nav-tabs"><li class="active"><a href="#api_personas__id__get_request" data-toggle="tab">Request</a></li><li><a href="#api_personas__id__get_response" data-toggle="tab">Response</a></li></ul><div class="tab-content"><div class="tab-pane active" id="api_personas__id__get_request"><h3>URI Parameters</h3><ul><li><strong>id</strong>: <em>required (string)</em></li></ul></div><div class="tab-pane" id="api_personas__id__get_response"><h2>HTTP status code <a href="http://httpstatus.es/200" target="_blank">200</a></h2><h3>Body</h3><p><strong>Media type</strong>: application/json</p><p><strong>Type</strong>: object</p><p><strong>Example</strong>:</p><div class="examples"><pre><code>{
+  "status": "ok",
+  "entity": {
+      "id": 1,
+      "tipo": "natural",
+      "apellido": "Perez",
+      "cedula": "8-111-2222",
+      "nombre": "Juan",
+      "nombre_sociedad": "",
+      "pasaporte": "",
+      "ruc": "",
+      "latest_submission": 7
+  }
+}
+</code></pre></div></div></div></div></div></div></div></div></div></div></div></div><div class="col-md-3"><div id="sidebar" class="hidden-print affix" role="complementary"><ul class="nav nav-pills nav-stacked"><li><a href="#api">/api</a></li></ul></div></div></div></div></body></html>
